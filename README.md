@@ -13,4 +13,4 @@ a section on my current portfolio
 contact info with my number , email , github link & twitter link
 
 ## link
-https://mattyjtx.github.io/codingportfolio/ 
+https://mattyjtx.github.io/portfolio/
