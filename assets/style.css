@@ -1,0 +1,141 @@
+* {
+  margin: 10px 20px;
+  width: auto;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f6eabe;
+  color: #87aaaa;
+  font-family: "Courier New", Courier, monospace;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f6d7a7;
+} 
+
+nav a {
+  text-decoration: none;
+  color: #274949;
+}
+
+.about-me {
+  display: flex;
+  flex-grow: 1;
+}
+
+.about-me img {
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+#horiseon img {
+  height: 350px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+#horiseon a {
+  background-color: #f6d7a7;
+  transition: background-color 0.5s;
+}
+#horiseon a:hover {
+  background-color: #87aaaa;
+}
+#straw-hats img {
+  height: 350px;
+  width: 500px;
+  border-radius: 20px;
+}
+#straw-hats a {
+  background-color: #f6d7a7;
+  transition: background-color 0.5s;
+}
+#straw-hats a:hover {
+  background-color: #87aaaa;
+}
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+#my-spotify img {
+  height: 350px;
+  width: 500px;
+  border-radius: 20px;
+}
+#my-spotify a {
+  background-color: #f6d7a7;
+  transition: background-color 0.5s;
+}
+#my-spotify a:hover {
+  background-color: #87aaaa;
+}
+#king-krule img {
+  height: 350px;
+  width: 500px;
+  border-radius: 20px;
+}
+#king-krule a {
+  background-color: #f6d7a7;
+  transition: background-color 0.5s;
+}
+#king-krule a:hover {
+  background-color: #87aaaa;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #f6d7a7;
+}
+@media screen and (max-width: 780px) {
+  main,
+  nav {
+    flex-direction: row;
+  }
+}
+
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+ 
+ 
+}
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+.skills .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+}
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #149ddd;
+}
+ li .list-group-item {
+  color: #149ddd;
+}
